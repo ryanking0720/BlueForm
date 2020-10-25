@@ -1,0 +1,4 @@
+D:\BlueForm\BlueForm\bin\Debug\BlueForm.dll
+D:\BlueForm\BlueForm\bin\Debug\BlueForm.pdb
+D:\BlueForm\BlueForm\obj\Debug\BlueForm.dll
+D:\BlueForm\BlueForm\obj\Debug\BlueForm.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7e88e781-6470-45bb-8d36-b6494c425acc" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BlueForm.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BlueForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ece9c38fe084212d" Namespace="BlueForm.BlueForm" TypeName="*" />
+        <SafeControl Assembly="BlueForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ece9c38fe084212d" Namespace="BlueForm.SecurityAuthorizationForm" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\BlueForm\BlueForm\BlueFormUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BlueForm\SecurityAuthorizationForm\SecurityAuthorizationFormUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BlueForm_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

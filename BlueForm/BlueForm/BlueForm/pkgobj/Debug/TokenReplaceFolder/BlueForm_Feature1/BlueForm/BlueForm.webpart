@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BlueForm.BlueForm.BlueForm, BlueForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ece9c38fe084212d" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">BlueForm</property>
+        <property name="Description" type="string">My Visual WebPart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

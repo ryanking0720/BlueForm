@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="073f2c21-475d-4f23-ba1d-1d44b2919909" Scope="Site" Title="BlueForm Feature1">
+  <ElementManifests>
+    <ElementManifest Location="BlueForm\Elements.xml" />
+    <ElementFile Location="BlueForm\BlueForm.webpart" />
+    <ElementManifest Location="SecurityAuthorizationForm\Elements.xml" />
+    <ElementFile Location="SecurityAuthorizationForm\SecurityAuthorizationForm.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7e88e781-6470-45bb-8d36-b6494c425acc" solutionId="7e88e781-6470-45bb-8d36-b6494c425acc" resetWebServer="false" name="BlueForm" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\satya\itextsharp.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="cd7c371f-2286-4a6a-bd9a-2a4347e98f1a" />
+  </features>
+</package>
